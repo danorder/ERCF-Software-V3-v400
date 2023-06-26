@@ -1,4 +1,4 @@
-`V400` COMPATABILITY FORK (just default setting changes nothing major all credits to ) 
+`V400` COMPATABILITY FORK (just default setting changes nothing major all credits to `moggieuk` ) 
 
 
 
