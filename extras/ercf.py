@@ -3145,7 +3145,7 @@ class Ercf:
         if self._check_is_disabled(): return
         if self._check_is_paused(): return
         if self._check_in_bypass(): return
-        length = gcmd.get_float('LENGTH', 200.)
+        length = gcmd.get_float('LENGTH', 140.)
         speed = gcmd.get_float('SPEED', 50.)
         accel = gcmd.get_float('ACCEL', 200., minval=0.)
         self._gear_stepper_move_wait(length, wait=False, speed=speed, accel=accel)
